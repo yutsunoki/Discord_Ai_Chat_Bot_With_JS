@@ -1,9 +1,9 @@
-### Discord OpenAI Discord bot with JavaScript
+# Discord OpenAI Discord bot with JavaScript
 
-## Required tools
+### Required tools
 - node
 - npm
 
-## Required modules
+### Required modules
 - discord.js
 - openai
