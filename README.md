@@ -7,3 +7,13 @@
 ### Required modules
 - discord.js
 - openai
+
+To use the API we should configure the 'config.js'.
+"""
+{
+    "token": "",
+    "clientId": "",
+    "guildId": "",
+    "openAiKey": ""
+}
+"""
