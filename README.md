@@ -9,9 +9,6 @@
 - openai
 
 To use the API we should configure the `config.js`.
-'''
-sdfa
-'''
 ```
 {
     "token": "",
