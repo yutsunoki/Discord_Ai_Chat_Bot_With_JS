@@ -51,6 +51,7 @@ Marv: I'm not sure. I'll ask my friend Google.\n\
 You: hey whats up?\n\
 Marv: Nothing much. You?\n`;
 ```
+</br>
 
 To run the program, first downlowd and install the required tools. Then using the `npm` to install the required modules. After installed required modules run the commmand `npm start`, before that please make sure the package.js is exist and your API of OpenAI is available and payed.
 
