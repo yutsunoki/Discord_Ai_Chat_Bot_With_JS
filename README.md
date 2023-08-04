@@ -36,7 +36,7 @@ const gptResponse = await openai.createCompletion({
 ```
 </br>
 
-For the custom instructions, we can change the line of [38-48](https://github.com/yutsunoki/Discord_Ai_Chat_Bot_With_JS/blob/main/src/bot.js?plain=1#L38-48).
+For the custom instructions, we can change the line of [38-48](https://github.com/yutsunoki/Discord_Ai_Chat_Bot_With_JS/blob/main/src/bot.js?plain=1#L38-L48).
 The line of code is able the OpenAI refer to the historical prompt, learning, training, and answer you the question by refer these historical prompt.
 ```
 let prompt =`Marv is a chatbot that reluctantly answers questions.\n\
