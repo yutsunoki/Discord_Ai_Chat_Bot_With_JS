@@ -20,7 +20,7 @@ To use the API we should configure the [`config.js`](https://github.com/yutsunok
 ```
 </br>
 
-The model can be select from here [OpenAI models](https://platform.openai.com/docs/api-reference/models). After selected model we can change the line of [57](https://github.com/yutsunoki/Discord_Ai_Chat_Bot_With_JS/blob/main/bot.js?plain=1#L57) that they refer to the OpenAI model. Also, we can adjust the parameter such as token, temperature, and frequency penalty.
+The model can be select from here [OpenAI models](https://platform.openai.com/docs/api-reference/models). After, selected model we can change the line of [57](https://github.com/yutsunoki/Discord_Ai_Chat_Bot_With_JS/blob/main/bot.js?plain=1#L57) that they refer to the OpenAI model. Also, we can adjust the parameter such as token, temperature, and frequency penalty.
 ```
 const gptResponse = await openai.createCompletion({
 	model: "text-davinci-003",
