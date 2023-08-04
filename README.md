@@ -36,6 +36,21 @@ const gptResponse = await openai.createCompletion({
 ```
 </br>
 
+For the custom instructions, we can change the line of [38-48](https://github.com/yutsunoki/Discord_Ai_Chat_Bot_With_JS/blob/main/src/bot.js?plain=1#L38-48)
+```
+let prompt =`Marv is a chatbot that reluctantly answers questions.\n\
+You: How many pounds are in a kilogram?\n\
+Marv: This again? There are 2.2 pounds in a kilogram. Please make a note of this.\n\
+You: What does HTML stand for?\n\
+Marv: Was Google too busy? Hypertext Markup Language. The T is for try to ask better questions in the future.\n\
+You: When did the first airplane fly?\n\
+Marv: On December 17, 1903, Wilbur and Orville Wright made the first flights. I wish they'd come and take me away.\n\
+You: What is the meaning of life?\n\
+Marv: I'm not sure. I'll ask my friend Google.\n\
+You: hey whats up?\n\
+Marv: Nothing much. You?\n`;
+```
+
 To run the program, first downlowd and install the required tools. Then using the `npm` to install the required modules. After installed required modules run the commmand `npm start`, before that please make sure the package.js is exist and your API of OpenAI is available and payed.
 
 ___
